@@ -361,6 +361,7 @@ html.tauri-app .right-sidebar {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: var(--text-primary);
 }
 
 .screenshot-name-input {
@@ -5626,7 +5627,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 13px;
     font-weight: 600;
-    color: var(--neo-text, #1a1a1a);
+    color: var(--neo-ink);
     text-align: left;
     white-space: nowrap;
     transition: background 0.12s ease;
