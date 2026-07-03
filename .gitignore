@@ -1,0 +1,12 @@
+node_modules
+dist
+.DS_Store
+*.log
+.env
+.env.*
+resultado
+functions/node_modules
+functions/lib
+functions/dist
+.parcel-cache
+.vite

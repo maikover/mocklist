@@ -1,0 +1,25 @@
+{
+  "name": "mocklist",
+  "version": "1.0.0",
+  "description": "App Store Screenshot Generator - Create beautiful App Store marketing screenshots",
+  "author": {
+    "name": "mocklist",
+    "email": "hello@mocklist.app",
+    "url": "https://mocklist.app"
+  },
+  "license": "MIT",
+  "homepage": "https://mocklist.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maikover/mocklist"
+  },
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  }
+}
